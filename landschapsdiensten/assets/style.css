@@ -1,0 +1,84 @@
+.grizzly-hero {
+    color: #fff !important
+}
+
+.grizzly-center {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.grizzly-cta {
+    width: 100% !important;
+}
+
+.grizzly-cta p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.grizzly-cta a {
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    color: #fff;
+    border: 2px solid var(--color-primary);
+    margin-left: 0 !important;
+}
+
+
+.grizzly-cta a:hover {
+    background: var(--color-primary);
+    color: #fff !important;
+}
+
+.grizzly-text a {
+    text-decoration: underline;
+}
+
+.grizzly-usps {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+
+.grizzly-usps p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+
+.breadcr {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.breadcr ul {
+    margin: 0;
+    padding: 0px;
+}
+
+.breadcr ul li {
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.breadcr ul li:after {
+    content: " / ";
+}
+
+.breadcr ul li:last-child:after {
+    content: "";
+}
+
+
+@media (max-width: 767px) {
+    .grizzly-usps p {
+        text-align: left !important;
+    }
+    }
